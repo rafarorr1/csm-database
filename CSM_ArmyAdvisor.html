@@ -274,8 +274,9 @@ Paste your full list here"></textarea>
 
 <script>
 // ================================================================
-// CONFIG — edit GITHUB_DB_URL to point to your repo
+// CONFIG — edit these two values
 // ================================================================
+const ANTHROPIC_API_KEY = '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'; // ← paste your key from console.anthropic.com
 const GITHUB_DB_URL = 'https://raw.githubusercontent.com/rafarorr1/csm-database/main/wh40k_database.json';
 
 // ================================================================
@@ -423,7 +424,7 @@ async function analyseArmy() {
   try {
     const res = await fetch('https://api.anthropic.com/v1/messages', {
       method: 'POST',
-      headers: {'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true'},
+      headers: {'Content-Type':'application/json','anthropic-dangerous-direct-browser-access':'true','x-api-key':ANTHROPIC_API_KEY},
       body: JSON.stringify({
         model: 'claude-sonnet-4-20250514',
         max_tokens: 4000,
