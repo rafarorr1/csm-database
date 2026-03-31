@@ -1,0 +1,53 @@
+name: Auto-update database from BSData
+
+on:
+  # Run every Monday at 06:00 UTC (catches weekly GW patches)
+  schedule:
+    - cron: '0 6 * * 1'
+
+  # Also allow manual trigger from GitHub Actions tab
+  workflow_dispatch:
+
+  # Optionally: run whenever you push changes to the converter script
+  push:
+    paths:
+      - 'convert_bsdata.py'
+
+jobs:
+  update-database:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write   # needed to commit the updated JSON back to the repo
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      # No extra dependencies needed — script uses only stdlib (urllib, xml, json)
+
+      - name: Run BSData converter
+        run: python3 convert_bsdata.py --output wh40k_database.json
+
+      - name: Check if database changed
+        id: diff
+        run: |
+          git diff --quiet wh40k_database.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit and push updated database
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add wh40k_database.json
+          git commit -m "Auto-update database from BSData [$(date -u '+%Y-%m-%d')]"
+          git push
+
+      - name: No changes detected
+        if: steps.diff.outputs.changed == 'false'
+        run: echo "Database is already up to date — no commit needed."
