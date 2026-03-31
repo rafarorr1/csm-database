@@ -1131,30 +1131,17 @@ function selectPreset(key) {
 // AI ARMY ADVISOR
 // ════════════════════════════════════════════════════════════════
 
-// ================================================================
-// CONFIG
-// ================================================================
-const PROXY_URL = 'https://ancient-fire-e0b5.rafarorr1.workers.dev';
-const GITHUB_DB_URL = 'https://raw.githubusercontent.com/rafarorr1/csm-database/main/wh40k_database.json';
+// CONFIG defined at top of file
 
 // ================================================================
 // CONSTANTS
 // ================================================================
-const PC = {command:'#065f46',movement:'#1e3a5f',shooting:'#7c2d12',charge:'#831843',fight:'#7c2d12',end:'#065f46',reactive:'#4c1d95'};
-const PI = {command:'CMD',movement:'MOV',shooting:'SHOOT',charge:'CHG',fight:'FIGHT',end:'END',reactive:'OPP'};
-const PL = {command:'Command',movement:'Movement',shooting:'Shooting',charge:'Charge',fight:'Fight',end:'End Phase',reactive:'Opp Turn'};
+// PC — using preset constants
+// PI — using preset constants
+// PL — using preset constants
 const AF = ['command','movement','shooting','charge','fight','end','reactive'];
 
-const CORE_STRATS = [
-  {name:'Counter-Offensive',cp:2,phase:'Fight',effect:'After an enemy unit fights, immediately fight back with one of your units.'},
-  {name:'Fire Overwatch',cp:1,phase:'Opp Charge',effect:'Shoot at a unit that charged or moved within 24".'},
-  {name:'Rapid Ingress',cp:1,phase:'Opp Move',effect:"Drop a reserve unit 9\"+ during opponent's Reinforcement step."},
-  {name:'Go to Ground',cp:1,phase:'Opp Shoot',effect:'Targeted INFANTRY: 6++ invuln + Benefit of Cover for the phase.'},
-  {name:'Smokescreen',cp:1,phase:'Opp Shoot',effect:'Vehicle with SMOKE keyword: -1 to all Hit rolls against it.'},
-  {name:'Undying Hatred',cp:1,phase:'Opp Charge',effect:'Models fight on 4+ before removal when enemy charges your unit.'},
-  {name:'Heroic Intervention',cp:1,phase:'Opp Charge',effect:'Move a unit up to 3" to intercept an enemy charge.'},
-  {name:'Insane Bravery',cp:2,phase:'Command',effect:'Auto-pass a Battle-shock test for one unit.'},
-];
+// CORE_STRATS defined above
 
 // ================================================================
 // STATE
@@ -1398,19 +1385,13 @@ function adjVp(who,d) {
   updHdr();
 }
 
-function modCp(d,r) {
+function modCpAI(d,r) {
   bs.cp=Math.max(0,bs.cp+d);
   if(r) bs.cpLog=[...bs.cpLog.slice(-9),{d,r}];
   updHdr();
 }
 
-function switchTab(id) {
-  // handled by switchTab2
-  if(id==='turn') renderTurnPane();
-  else if(id==='cp') renderCpPane();
-  else if(id==='reserves') renderResPane();
-  else if(id==='ref') renderRefPane();
-}
+// switchTab handled by switchTab2 above
 
 function renderTurnPane() {
   const ph=bs.phase; const col=PC[ph];
@@ -1426,7 +1407,7 @@ function renderTurnPane() {
   h+='<div class="phase-btns">';
   AF.forEach(p=>{
     const act=ph===p;
-    h+='<button class="phase-btn'+(act?' active':'')+'" style="border-color:'+PC[p]+';color:'+(act?'#fff':PC[p])+(act?';background:'+PC[p]:'')+'" onclick="setPhase(\''+p+'\')">'+PI[p]+'</button>';
+    h+='<button class="phase-btn'+(act?' active':'')+'" style="border-color:'+PC[p]+';color:'+(act?'#fff':PC[p])+(act?';background:'+PC[p]:'')+'" onclick="setPhaseAI(\''+p+'\')">'+PI[p]+'</button>';
   });
   h+='</div>';
 
@@ -1451,11 +1432,11 @@ function renderTurnPane() {
   document.getElementById('turn-pane').innerHTML=h;
 }
 
-function setPhase(p){bs.phase=p;renderTurnPane();}
+function setPhaseAI(p){bs.phase=p;renderTurnPane();}
 function toggleChk(id){bs.checked[id]=!bs.checked[id];renderTurnPane();}
 function markAll(){((armyData.phaseNotes||{})[bs.phase]||[]).forEach((_,i)=>{bs.checked[bs.phase+'-'+i]=true;});renderTurnPane();}
 function advPhase(){const i=AF.indexOf(bs.phase);if(i<AF.length-1){bs.phase=AF[i+1];renderTurnPane();}}
-function endRound(){if(bs.round<5){bs.round++;modCp(1,'Command +1CP');}bs.phase='command';bs.checked={};renderTurnPane();updHdr();}
+function endRound(){if(bs.round<5){bs.round++;modCpAI(1,'Command +1CP');}bs.phase='command';bs.checked={};renderTurnPane();updHdr();}
 
 function renderCpPane() {
   let h='<div class="card" style="border:2px solid #f59e0b;text-align:center;padding:20px 16px">';
@@ -1463,18 +1444,18 @@ function renderCpPane() {
   h+='<div class="cp-big">'+bs.cp+'</div>';
   h+='<div style="font-size:12px;color:#6b7280;margin-top:4px">Round '+bs.round+'</div>';
   h+='<div class="cp-btns">';
-  h+='<button class="cp-mod" style="border-color:#ef4444;background:#7f1d1d;color:#fff;font-size:16px" onclick="modCp(-2,\'Spent 2CP\');renderCpPane()">-2</button>';
-  h+='<button class="cp-mod" style="border-color:#f87171;background:#991b1b;color:#fff" onclick="modCp(-1,\'Spent 1CP\');renderCpPane()">-</button>';
-  h+='<button class="cp-mod" style="border-color:#4ade80;background:#065f46;color:#fff" onclick="modCp(1,\'Gained 1CP\');renderCpPane()">+</button>';
-  h+='<button class="cp-mod" style="border-color:#4ade80;background:#064e3b;color:#fff;font-size:16px" onclick="modCp(2,\'Gained 2CP\');renderCpPane()">+2</button>';
+  h+='<button class="cp-mod" style="border-color:#ef4444;background:#7f1d1d;color:#fff;font-size:16px" onclick="modCpAI(-2,\'Spent 2CP\');renderCpPane()">-2</button>';
+  h+='<button class="cp-mod" style="border-color:#f87171;background:#991b1b;color:#fff" onclick="modCpAI(-1,\'Spent 1CP\');renderCpPane()">-</button>';
+  h+='<button class="cp-mod" style="border-color:#4ade80;background:#065f46;color:#fff" onclick="modCpAI(1,\'Gained 1CP\');renderCpPane()">+</button>';
+  h+='<button class="cp-mod" style="border-color:#4ade80;background:#064e3b;color:#fff;font-size:16px" onclick="modCpAI(2,\'Gained 2CP\');renderCpPane()">+2</button>';
   h+='</div>';
-  h+='<button style="width:100%;margin-top:12px;padding:10px;border-radius:8px;border:2px solid #4ade80;background:#065f46;color:#fff;font-size:12px;font-weight:700;cursor:pointer" onclick="modCp(1,\'Command +1CP\');renderCpPane()">+ COMMAND PHASE: Gain 1CP</button>';
+  h+='<button style="width:100%;margin-top:12px;padding:10px;border-radius:8px;border:2px solid #4ade80;background:#065f46;color:#fff;font-size:12px;font-weight:700;cursor:pointer" onclick="modCpAI(1,\'Command +1CP\');renderCpPane()">+ COMMAND PHASE: Gain 1CP</button>';
   h+='</div>';
 
   h+='<div class="card" style="border:1px solid #1f2937;padding:12px"><div style="font-size:11px;color:#6b7280;letter-spacing:1px;margin-bottom:10px">STRATAGEMS</div>';
   CORE_STRATS.forEach(s=>{
     h+='<div class="strat-row" style="border:1px solid #f59e0b;margin-bottom:6px">';
-    h+='<button class="strat-cost-btn" style="background:#1a1200;color:#f59e0b;border-right:1px solid #f59e0b" onclick="modCp(-'+s.cp+',\''+s.name.replace(/'/g,"\\'")+'    \');renderCpPane()">'+s.cp+'CP</button>';
+    h+='<button class="strat-cost-btn" style="background:#1a1200;color:#f59e0b;border-right:1px solid #f59e0b" onclick="modCpAI(-'+s.cp+',\''+s.name.replace(/'/g,"\\'")+'    \');renderCpPane()">'+s.cp+'CP</button>';
     h+='<div class="strat-detail"><div class="strat-name-r">'+s.name+'<span class="strat-phase-tag">'+s.phase+'</span></div><div class="strat-desc-t">'+s.effect+'</div></div>';
     h+='</div>';
   });
