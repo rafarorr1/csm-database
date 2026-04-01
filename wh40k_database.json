@@ -1,0 +1,3454 @@
+{
+  "factions": {
+    "chaos_space_marines": {
+      "units": {
+        "abaddon_the_despoiler": {
+          "name": "Abaddon the Despoiler",
+          "role": "Warlord",
+          "points": 270,
+          "T": 5,
+          "W": 9,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "huron_blackheart": {
+          "name": "Huron Blackheart",
+          "role": "Warlord",
+          "points": 80,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "chaos_lord": {
+          "name": "Chaos Lord",
+          "role": "Character",
+          "points": 75,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "chaos_lord_in_terminator_armour": {
+          "name": "Chaos Lord in Terminator Armour",
+          "role": "Character",
+          "points": 105,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "chaos_lord_with_jump_pack": {
+          "name": "Chaos Lord with Jump Pack",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "sorcerer": {
+          "name": "Sorcerer",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "sorcerer_in_terminator_armour": {
+          "name": "Sorcerer in Terminator Armour",
+          "role": "Character",
+          "points": 110,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "dark_apostle": {
+          "name": "Dark Apostle",
+          "role": "Character",
+          "points": 60,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "master_of_executions": {
+          "name": "Master of Executions",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "master_of_possession": {
+          "name": "Master of Possession",
+          "role": "Character",
+          "points": 85,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "warpsmith": {
+          "name": "Warpsmith",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "cultist_firebrand": {
+          "name": "Cultist Firebrand",
+          "role": "Character",
+          "points": 45,
+          "T": 3,
+          "W": 4,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "vashtorr_the_arkifane": {
+          "name": "Vashtorr the Arkifane",
+          "role": "Character",
+          "points": 260,
+          "T": 8,
+          "W": 10,
+          "SV": "2+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "chaos_terminator_squad": {
+          "name": "Chaos Terminator Squad",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "chosen": {
+          "name": "Chosen",
+          "role": "Elite",
+          "points": 150,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "possessed": {
+          "name": "Possessed",
+          "role": "Elite",
+          "points": 140,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "7\"",
+          "INV": "5+"
+        },
+        "obliterators": {
+          "name": "Obliterators",
+          "role": "Heavy",
+          "points": 160,
+          "T": 8,
+          "W": 4,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "mutilators": {
+          "name": "Mutilators",
+          "role": "Elite",
+          "points": 105,
+          "T": 6,
+          "W": 4,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "5+"
+        },
+        "chaos_bikers": {
+          "name": "Chaos Bikers",
+          "role": "Elite",
+          "points": 115,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "14\""
+        },
+        "chaos_spawn": {
+          "name": "Chaos Spawn",
+          "role": "Elite",
+          "points": 55,
+          "T": 5,
+          "W": 4,
+          "SV": "5+",
+          "M": "8\""
+        },
+        "accursed_cultists": {
+          "name": "Accursed Cultists",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 2,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "fellgor_beastmen": {
+          "name": "Fellgor Beastmen",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 2,
+          "SV": "5+",
+          "M": "7\""
+        },
+        "legionaries": {
+          "name": "Legionaries",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "cultist_mob": {
+          "name": "Cultist Mob",
+          "role": "Battleline",
+          "points": 50,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "forgefiend": {
+          "name": "Forgefiend",
+          "role": "Heavy",
+          "points": 195,
+          "T": 9,
+          "W": 12,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "maulerfiend": {
+          "name": "Maulerfiend",
+          "role": "Heavy",
+          "points": 150,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "defiler": {
+          "name": "Defiler",
+          "role": "Heavy",
+          "points": 180,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "chaos_vindicator": {
+          "name": "Chaos Vindicator",
+          "role": "Heavy",
+          "points": 185,
+          "T": 11,
+          "W": 11,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "chaos_predator_annihilator": {
+          "name": "Chaos Predator Annihilator",
+          "role": "Heavy",
+          "points": 150,
+          "T": 10,
+          "W": 11,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "chaos_predator_destructor": {
+          "name": "Chaos Predator Destructor",
+          "role": "Heavy",
+          "points": 150,
+          "T": 10,
+          "W": 11,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "chaos_land_raider": {
+          "name": "Chaos Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "chaos_rhino": {
+          "name": "Chaos Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "world_eaters": {
+      "units": {
+        "angron": {
+          "name": "Angron",
+          "role": "Warlord",
+          "points": 415,
+          "T": 9,
+          "W": 18,
+          "SV": "2+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "world_eaters_daemon_prince": {
+          "name": "World Eaters Daemon Prince",
+          "role": "Warlord",
+          "points": 195,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "lord_invocatus": {
+          "name": "Lord Invocatus",
+          "role": "Character",
+          "points": 165,
+          "T": 5,
+          "W": 7,
+          "SV": "3+",
+          "M": "14\"",
+          "INV": "4+"
+        },
+        "khârn_the_betrayer": {
+          "name": "Khârn the Betrayer",
+          "role": "Character",
+          "points": 130,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "world_eaters_chaos_lord": {
+          "name": "World Eaters Chaos Lord",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "khorne_berzerkers": {
+          "name": "Khorne Berzerkers",
+          "role": "Battleline",
+          "points": 105,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "jakhals": {
+          "name": "Jakhals",
+          "role": "Battleline",
+          "points": 60,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "eightbound": {
+          "name": "Eightbound",
+          "role": "Elite",
+          "points": 195,
+          "T": 6,
+          "W": 4,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "exalted_eightbound": {
+          "name": "Exalted Eightbound",
+          "role": "Elite",
+          "points": 175,
+          "T": 6,
+          "W": 5,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "world_eaters_terminators": {
+          "name": "World Eaters Terminators",
+          "role": "Elite",
+          "points": 195,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "chaos_spawn": {
+          "name": "Chaos Spawn",
+          "role": "Elite",
+          "points": 55,
+          "T": 5,
+          "W": 4,
+          "SV": "5+",
+          "M": "8\""
+        },
+        "chaos_bikers": {
+          "name": "Chaos Bikers",
+          "role": "Elite",
+          "points": 115,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "14\""
+        },
+        "brass_stampede": {
+          "name": "Brass Stampede",
+          "role": "Heavy",
+          "points": 285,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "world_eaters_predator_annihilator": {
+          "name": "World Eaters Predator Annihilator",
+          "role": "Heavy",
+          "points": 150,
+          "T": 10,
+          "W": 11,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "world_eaters_land_raider": {
+          "name": "World Eaters Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "world_eaters_rhino": {
+          "name": "World Eaters Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "death_guard": {
+      "units": {
+        "mortarion": {
+          "name": "Mortarion",
+          "role": "Warlord",
+          "points": 430,
+          "T": 9,
+          "W": 18,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "death_guard_daemon_prince": {
+          "name": "Death Guard Daemon Prince",
+          "role": "Warlord",
+          "points": 165,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "typhus": {
+          "name": "Typhus",
+          "role": "Character",
+          "points": 135,
+          "T": 5,
+          "W": 7,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "malignant_plaguecaster": {
+          "name": "Malignant Plaguecaster",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "plague_surgeon": {
+          "name": "Plague Surgeon",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "lord_of_virulence": {
+          "name": "Lord of Virulence",
+          "role": "Character",
+          "points": 115,
+          "T": 5,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "death_guard_chaos_lord_in_terminator_armour": {
+          "name": "Death Guard Chaos Lord in Terminator Armour",
+          "role": "Character",
+          "points": 105,
+          "T": 5,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "plague_marines": {
+          "name": "Plague Marines",
+          "role": "Battleline",
+          "points": 170,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "5\"",
+          "INV": "5+"
+        },
+        "poxwalkers": {
+          "name": "Poxwalkers",
+          "role": "Battleline",
+          "points": 50,
+          "T": 3,
+          "W": 1,
+          "SV": "7+",
+          "M": "5\""
+        },
+        "blightlord_terminators": {
+          "name": "Blightlord Terminators",
+          "role": "Elite",
+          "points": 215,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "deathshroud_bodyguard": {
+          "name": "Deathshroud Bodyguard",
+          "role": "Elite",
+          "points": 200,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "chaos_spawn": {
+          "name": "Chaos Spawn",
+          "role": "Elite",
+          "points": 55,
+          "T": 5,
+          "W": 4,
+          "SV": "5+",
+          "M": "8\""
+        },
+        "myphitic_blight-haulers": {
+          "name": "Myphitic Blight-Haulers",
+          "role": "Heavy",
+          "points": 130,
+          "T": 9,
+          "W": 8,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "foetid_bloat-drone": {
+          "name": "Foetid Bloat-Drone",
+          "role": "Heavy",
+          "points": 125,
+          "T": 10,
+          "W": 8,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "plagueburst_crawler": {
+          "name": "Plagueburst Crawler",
+          "role": "Heavy",
+          "points": 175,
+          "T": 11,
+          "W": 12,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "death_guard_land_raider": {
+          "name": "Death Guard Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "death_guard_rhino": {
+          "name": "Death Guard Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "thousand_sons": {
+      "units": {
+        "magnus_the_red": {
+          "name": "Magnus the Red",
+          "role": "Warlord",
+          "points": 415,
+          "T": 10,
+          "W": 18,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "thousand_sons_daemon_prince": {
+          "name": "Thousand Sons Daemon Prince",
+          "role": "Warlord",
+          "points": 165,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "ahriman": {
+          "name": "Ahriman",
+          "role": "Character",
+          "points": 160,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "exalted_sorcerer": {
+          "name": "Exalted Sorcerer",
+          "role": "Character",
+          "points": 105,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "infernal_master": {
+          "name": "Infernal Master",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "rubric_marines": {
+          "name": "Rubric Marines",
+          "role": "Battleline",
+          "points": 130,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "cultists": {
+          "name": "Cultists",
+          "role": "Battleline",
+          "points": 50,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "scarab_occult_terminators": {
+          "name": "Scarab Occult Terminators",
+          "role": "Elite",
+          "points": 225,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "mutalith_vortex_beast": {
+          "name": "Mutalith Vortex Beast",
+          "role": "Heavy",
+          "points": 195,
+          "T": 9,
+          "W": 12,
+          "SV": "4+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "maulerfiend": {
+          "name": "Maulerfiend",
+          "role": "Heavy",
+          "points": 150,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "defiler": {
+          "name": "Defiler",
+          "role": "Heavy",
+          "points": 180,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "thousand_sons_rhino": {
+          "name": "Thousand Sons Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "emperors_children": {
+      "units": {
+        "fulgrim": {
+          "name": "Fulgrim",
+          "role": "Warlord",
+          "points": 420,
+          "T": 7,
+          "W": 16,
+          "SV": "2+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "lucius_the_eternal": {
+          "name": "Lucius the Eternal",
+          "role": "Character",
+          "points": 100,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "lord_of_pain": {
+          "name": "Lord of Pain",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "noise_marines": {
+          "name": "Noise Marines",
+          "role": "Battleline",
+          "points": 170,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "daemonettes": {
+          "name": "Daemonettes",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "emperors_children_terminators": {
+          "name": "Emperor's Children Terminators",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "chaos_spawn": {
+          "name": "Chaos Spawn",
+          "role": "Elite",
+          "points": 55,
+          "T": 5,
+          "W": 4,
+          "SV": "5+",
+          "M": "8\""
+        },
+        "emperors_children_bikers": {
+          "name": "Emperor's Children Bikers",
+          "role": "Elite",
+          "points": 115,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "14\""
+        },
+        "emperors_children_forgefiend": {
+          "name": "Emperor's Children Forgefiend",
+          "role": "Heavy",
+          "points": 195,
+          "T": 9,
+          "W": 12,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "emperors_children_rhino": {
+          "name": "Emperor's Children Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "space_marines": {
+      "units": {
+        "marneus_calgar": {
+          "name": "Marneus Calgar",
+          "role": "Warlord",
+          "points": 185,
+          "T": 5,
+          "W": 8,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "captain": {
+          "name": "Captain",
+          "role": "Character",
+          "points": 85,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "captain_in_terminator_armour": {
+          "name": "Captain in Terminator Armour",
+          "role": "Character",
+          "points": 110,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "captain_in_phobos_armour": {
+          "name": "Captain in Phobos Armour",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "librarian": {
+          "name": "Librarian",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "chaplain": {
+          "name": "Chaplain",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "lieutenant": {
+          "name": "Lieutenant",
+          "role": "Character",
+          "points": 70,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "techmarine": {
+          "name": "Techmarine",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "intercessors": {
+          "name": "Intercessors",
+          "role": "Battleline",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "tactical_squad": {
+          "name": "Tactical Squad",
+          "role": "Battleline",
+          "points": 85,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "scouts": {
+          "name": "Scouts",
+          "role": "Battleline",
+          "points": 65,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "terminator_squad": {
+          "name": "Terminator Squad",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "sternguard_veteran_squad": {
+          "name": "Sternguard Veteran Squad",
+          "role": "Elite",
+          "points": 120,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "vanguard_veteran_squad": {
+          "name": "Vanguard Veteran Squad",
+          "role": "Elite",
+          "points": 110,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "dreadnought": {
+          "name": "Dreadnought",
+          "role": "Heavy",
+          "points": 120,
+          "T": 9,
+          "W": 8,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "devastator_squad": {
+          "name": "Devastator Squad",
+          "role": "Heavy",
+          "points": 100,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "land_raider": {
+          "name": "Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        },
+        "razorback": {
+          "name": "Razorback",
+          "role": "Transport",
+          "points": 110,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "drop_pod": {
+          "name": "Drop Pod",
+          "role": "Transport",
+          "points": 60,
+          "T": 8,
+          "W": 8,
+          "SV": "3+",
+          "M": "0\""
+        }
+      }
+    },
+    "blood_angels": {
+      "units": {
+        "commander_dante": {
+          "name": "Commander Dante",
+          "role": "Warlord",
+          "points": 150,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "sanguinarius": {
+          "name": "Sanguinarius",
+          "role": "Warlord",
+          "points": 420,
+          "T": 6,
+          "W": 14,
+          "SV": "2+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "captain": {
+          "name": "Captain",
+          "role": "Character",
+          "points": 85,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "librarian": {
+          "name": "Librarian",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "sanguinary_priest": {
+          "name": "Sanguinary Priest",
+          "role": "Character",
+          "points": 75,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "intercessors": {
+          "name": "Intercessors",
+          "role": "Battleline",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "tactical_squad": {
+          "name": "Tactical Squad",
+          "role": "Battleline",
+          "points": 85,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "death_company_marines": {
+          "name": "Death Company Marines",
+          "role": "Elite",
+          "points": 130,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "sanguinary_guard": {
+          "name": "Sanguinary Guard",
+          "role": "Elite",
+          "points": 120,
+          "T": 4,
+          "W": 2,
+          "SV": "2+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "terminator_assault_squad": {
+          "name": "Terminator Assault Squad",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "furioso_dreadnought": {
+          "name": "Furioso Dreadnought",
+          "role": "Heavy",
+          "points": 155,
+          "T": 9,
+          "W": 8,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "land_raider": {
+          "name": "Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "dark_angels": {
+      "units": {
+        "azrael": {
+          "name": "Azrael",
+          "role": "Warlord",
+          "points": 115,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "belial": {
+          "name": "Belial",
+          "role": "Character",
+          "points": 110,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "sammael": {
+          "name": "Sammael",
+          "role": "Character",
+          "points": 140,
+          "T": 5,
+          "W": 7,
+          "SV": "3+",
+          "M": "14\"",
+          "INV": "3+"
+        },
+        "interrogator-chaplain": {
+          "name": "Interrogator-Chaplain",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "captain": {
+          "name": "Captain",
+          "role": "Character",
+          "points": 85,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "intercessors": {
+          "name": "Intercessors",
+          "role": "Battleline",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "tactical_squad": {
+          "name": "Tactical Squad",
+          "role": "Battleline",
+          "points": 85,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "deathwing_knights": {
+          "name": "Deathwing Knights",
+          "role": "Elite",
+          "points": 230,
+          "T": 5,
+          "W": 4,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "deathwing_terminators": {
+          "name": "Deathwing Terminators",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "ravenwing_black_knights": {
+          "name": "Ravenwing Black Knights",
+          "role": "Elite",
+          "points": 130,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "14\""
+        },
+        "ravenwing_bikes": {
+          "name": "Ravenwing Bikes",
+          "role": "Elite",
+          "points": 95,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "14\""
+        },
+        "dreadnought": {
+          "name": "Dreadnought",
+          "role": "Heavy",
+          "points": 120,
+          "T": 9,
+          "W": 8,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "land_raider": {
+          "name": "Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "space_wolves": {
+      "units": {
+        "logan_grimnar": {
+          "name": "Logan Grimnar",
+          "role": "Warlord",
+          "points": 130,
+          "T": 4,
+          "W": 7,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "ragnar_blackmane": {
+          "name": "Ragnar Blackmane",
+          "role": "Warlord",
+          "points": 100,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "wolf_lord": {
+          "name": "Wolf Lord",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "wolf_guard_battle_leader": {
+          "name": "Wolf Guard Battle Leader",
+          "role": "Character",
+          "points": 70,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "rune_priest": {
+          "name": "Rune Priest",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "grey_hunters": {
+          "name": "Grey Hunters",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "blood_claws": {
+          "name": "Blood Claws",
+          "role": "Battleline",
+          "points": 85,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "wolf_guard_terminators": {
+          "name": "Wolf Guard Terminators",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "thunderwolf_cavalry": {
+          "name": "Thunderwolf Cavalry",
+          "role": "Elite",
+          "points": 150,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "long_fangs": {
+          "name": "Long Fangs",
+          "role": "Heavy",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "land_raider": {
+          "name": "Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "black_templars": {
+      "units": {
+        "high_marshal_helbrecht": {
+          "name": "High Marshal Helbrecht",
+          "role": "Warlord",
+          "points": 130,
+          "T": 4,
+          "W": 7,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "3+"
+        },
+        "the_emperors_champion": {
+          "name": "The Emperor's Champion",
+          "role": "Character",
+          "points": 85,
+          "T": 4,
+          "W": 5,
+          "SV": "2+",
+          "M": "6\""
+        },
+        "marshal": {
+          "name": "Marshal",
+          "role": "Character",
+          "points": 80,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "chaplain": {
+          "name": "Chaplain",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "crusader_squad": {
+          "name": "Crusader Squad",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "intercessors": {
+          "name": "Intercessors",
+          "role": "Battleline",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "sword_brethren": {
+          "name": "Sword Brethren",
+          "role": "Elite",
+          "points": 120,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "bladeguard_veterans": {
+          "name": "Bladeguard Veterans",
+          "role": "Elite",
+          "points": 150,
+          "T": 4,
+          "W": 3,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "terminator_assault_squad": {
+          "name": "Terminator Assault Squad",
+          "role": "Elite",
+          "points": 200,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "dreadnought": {
+          "name": "Dreadnought",
+          "role": "Heavy",
+          "points": 120,
+          "T": 9,
+          "W": 8,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "land_raider_crusader": {
+          "name": "Land Raider Crusader",
+          "role": "Transport",
+          "points": 245,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "grey_knights": {
+      "units": {
+        "kaldor_draigo": {
+          "name": "Kaldor Draigo",
+          "role": "Warlord",
+          "points": 175,
+          "T": 4,
+          "W": 8,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "grand_master_in_nemesis_dreadknight": {
+          "name": "Grand Master in Nemesis Dreadknight",
+          "role": "Warlord",
+          "points": 230,
+          "T": 7,
+          "W": 12,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "brotherhood_champion": {
+          "name": "Brotherhood Champion",
+          "role": "Character",
+          "points": 95,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "librarian": {
+          "name": "Librarian",
+          "role": "Character",
+          "points": 105,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "grey_knights_terminator_squad": {
+          "name": "Grey Knights Terminator Squad",
+          "role": "Battleline",
+          "points": 215,
+          "T": 5,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "grey_knights_strike_squad": {
+          "name": "Grey Knights Strike Squad",
+          "role": "Battleline",
+          "points": 155,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "purgation_squad": {
+          "name": "Purgation Squad",
+          "role": "Elite",
+          "points": 155,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "purifier_squad": {
+          "name": "Purifier Squad",
+          "role": "Elite",
+          "points": 160,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "nemesis_dreadknight": {
+          "name": "Nemesis Dreadknight",
+          "role": "Heavy",
+          "points": 175,
+          "T": 7,
+          "W": 12,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        }
+      }
+    },
+    "adepta_sororitas": {
+      "units": {
+        "saint_celestine": {
+          "name": "Saint Celestine",
+          "role": "Warlord",
+          "points": 165,
+          "T": 4,
+          "W": 7,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "morvenn_vahl": {
+          "name": "Morvenn Vahl",
+          "role": "Warlord",
+          "points": 185,
+          "T": 6,
+          "W": 8,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "canoness": {
+          "name": "Canoness",
+          "role": "Character",
+          "points": 65,
+          "T": 3,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "dialogus": {
+          "name": "Dialogus",
+          "role": "Character",
+          "points": 40,
+          "T": 3,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "imagifier": {
+          "name": "Imagifier",
+          "role": "Character",
+          "points": 50,
+          "T": 3,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "battle_sisters_squad": {
+          "name": "Battle Sisters Squad",
+          "role": "Battleline",
+          "points": 90,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "celestian_sacresants": {
+          "name": "Celestian Sacresants",
+          "role": "Elite",
+          "points": 75,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "zephyrim": {
+          "name": "Zephyrim",
+          "role": "Elite",
+          "points": 95,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "6+"
+        },
+        "seraphim_squad": {
+          "name": "Seraphim Squad",
+          "role": "Elite",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "6+"
+        },
+        "dominion_squad": {
+          "name": "Dominion Squad",
+          "role": "Elite",
+          "points": 90,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "exorcist": {
+          "name": "Exorcist",
+          "role": "Heavy",
+          "points": 175,
+          "T": 9,
+          "W": 11,
+          "SV": "2+",
+          "M": "9\""
+        },
+        "immolator": {
+          "name": "Immolator",
+          "role": "Transport",
+          "points": 115,
+          "T": 9,
+          "W": 9,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "rhino": {
+          "name": "Rhino",
+          "role": "Transport",
+          "points": 75,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        }
+      }
+    },
+    "adeptus_custodes": {
+      "units": {
+        "trajann_valoris": {
+          "name": "Trajann Valoris",
+          "role": "Warlord",
+          "points": 175,
+          "T": 6,
+          "W": 8,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "shield-captain": {
+          "name": "Shield-Captain",
+          "role": "Character",
+          "points": 120,
+          "T": 5,
+          "W": 6,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "custodian_guard": {
+          "name": "Custodian Guard",
+          "role": "Battleline",
+          "points": 175,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "custodian_wardens": {
+          "name": "Custodian Wardens",
+          "role": "Elite",
+          "points": 200,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "allarus_custodians": {
+          "name": "Allarus Custodians",
+          "role": "Elite",
+          "points": 180,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "vertus_praetors": {
+          "name": "Vertus Praetors",
+          "role": "Elite",
+          "points": 185,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "venerable_land_raider": {
+          "name": "Venerable Land Raider",
+          "role": "Transport",
+          "points": 230,
+          "T": 12,
+          "W": 16,
+          "SV": "2+",
+          "M": "10\""
+        }
+      }
+    },
+    "adeptus_mechanicus": {
+      "units": {
+        "belisarius_cawl": {
+          "name": "Belisarius Cawl",
+          "role": "Warlord",
+          "points": 225,
+          "T": 6,
+          "W": 9,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "tech-priest_dominus": {
+          "name": "Tech-Priest Dominus",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "tech-priest_enginseer": {
+          "name": "Tech-Priest Enginseer",
+          "role": "Character",
+          "points": 55,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "skitarii_rangers": {
+          "name": "Skitarii Rangers",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "skitarii_vanguard": {
+          "name": "Skitarii Vanguard",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "sicarian_ruststalkers": {
+          "name": "Sicarian Ruststalkers",
+          "role": "Elite",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "4+",
+          "M": "7\""
+        },
+        "sicarian_infiltrators": {
+          "name": "Sicarian Infiltrators",
+          "role": "Elite",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "kataphron_breachers": {
+          "name": "Kataphron Breachers",
+          "role": "Heavy",
+          "points": 135,
+          "T": 5,
+          "W": 4,
+          "SV": "3+",
+          "M": "5\""
+        },
+        "kataphron_destroyers": {
+          "name": "Kataphron Destroyers",
+          "role": "Heavy",
+          "points": 150,
+          "T": 5,
+          "W": 4,
+          "SV": "4+",
+          "M": "5\""
+        },
+        "onager_dunecrawler": {
+          "name": "Onager Dunecrawler",
+          "role": "Heavy",
+          "points": 165,
+          "T": 9,
+          "W": 11,
+          "SV": "3+",
+          "M": "9\""
+        }
+      }
+    },
+    "astra_militarum": {
+      "units": {
+        "lord_solar_leontus": {
+          "name": "Lord Solar Leontus",
+          "role": "Warlord",
+          "points": 150,
+          "T": 4,
+          "W": 6,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "ursula_creed": {
+          "name": "Ursula Creed",
+          "role": "Character",
+          "points": 75,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "company_commander": {
+          "name": "Company Commander",
+          "role": "Character",
+          "points": 40,
+          "T": 3,
+          "W": 3,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "primaris_psyker": {
+          "name": "Primaris Psyker",
+          "role": "Character",
+          "points": 50,
+          "T": 3,
+          "W": 3,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "infantry_squad": {
+          "name": "Infantry Squad",
+          "role": "Battleline",
+          "points": 60,
+          "T": 3,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "conscripts": {
+          "name": "Conscripts",
+          "role": "Battleline",
+          "points": 40,
+          "T": 3,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "tempestus_scions": {
+          "name": "Tempestus Scions",
+          "role": "Elite",
+          "points": 90,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "militarum_tempestus_command_squad": {
+          "name": "Militarum Tempestus Command Squad",
+          "role": "Elite",
+          "points": 65,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "bullgryns": {
+          "name": "Bullgryns",
+          "role": "Elite",
+          "points": 130,
+          "T": 6,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "ogryns": {
+          "name": "Ogryns",
+          "role": "Elite",
+          "points": 100,
+          "T": 6,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "leman_russ_battle_tank": {
+          "name": "Leman Russ Battle Tank",
+          "role": "Heavy",
+          "points": 175,
+          "T": 11,
+          "W": 13,
+          "SV": "2+",
+          "M": "10\""
+        },
+        "manticore": {
+          "name": "Manticore",
+          "role": "Heavy",
+          "points": 140,
+          "T": 9,
+          "W": 11,
+          "SV": "3+",
+          "M": "9\""
+        },
+        "chimera": {
+          "name": "Chimera",
+          "role": "Transport",
+          "points": 80,
+          "T": 9,
+          "W": 9,
+          "SV": "3+",
+          "M": "10\""
+        }
+      }
+    },
+    "imperial_knights": {
+      "units": {
+        "knight_paladin": {
+          "name": "Knight Paladin",
+          "role": "Warlord",
+          "points": 390,
+          "T": 12,
+          "W": 22,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "knight_errant": {
+          "name": "Knight Errant",
+          "role": "Warlord",
+          "points": 370,
+          "T": 12,
+          "W": 22,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "knight_crusader": {
+          "name": "Knight Crusader",
+          "role": "Warlord",
+          "points": 420,
+          "T": 12,
+          "W": 24,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "knight_gallant": {
+          "name": "Knight Gallant",
+          "role": "Warlord",
+          "points": 340,
+          "T": 12,
+          "W": 22,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "knight_warden": {
+          "name": "Knight Warden",
+          "role": "Warlord",
+          "points": 385,
+          "T": 12,
+          "W": 22,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "armiger_warglaives": {
+          "name": "Armiger Warglaives",
+          "role": "Elite",
+          "points": 150,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "armiger_helverins": {
+          "name": "Armiger Helverins",
+          "role": "Elite",
+          "points": 160,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        }
+      }
+    },
+    "necrons": {
+      "units": {
+        "the_silent_king": {
+          "name": "The Silent King",
+          "role": "Warlord",
+          "points": 445,
+          "T": 9,
+          "W": 18,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "imotekh_the_stormlord": {
+          "name": "Imotekh the Stormlord",
+          "role": "Warlord",
+          "points": 135,
+          "T": 6,
+          "W": 7,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "overlord": {
+          "name": "Overlord",
+          "role": "Character",
+          "points": 85,
+          "T": 5,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "chronomancer": {
+          "name": "Chronomancer",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "cryptek": {
+          "name": "Cryptek",
+          "role": "Character",
+          "points": 65,
+          "T": 4,
+          "W": 4,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "necron_warriors": {
+          "name": "Necron Warriors",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "immortals": {
+          "name": "Immortals",
+          "role": "Battleline",
+          "points": 100,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "lychguard": {
+          "name": "Lychguard",
+          "role": "Elite",
+          "points": 120,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "deathmarks": {
+          "name": "Deathmarks",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 1,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "flayed_ones": {
+          "name": "Flayed Ones",
+          "role": "Elite",
+          "points": 65,
+          "T": 4,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "triarch_praetorians": {
+          "name": "Triarch Praetorians",
+          "role": "Elite",
+          "points": 100,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "canoptek_wraiths": {
+          "name": "Canoptek Wraiths",
+          "role": "Elite",
+          "points": 100,
+          "T": 5,
+          "W": 3,
+          "SV": "4+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "annihilation_barge": {
+          "name": "Annihilation Barge",
+          "role": "Heavy",
+          "points": 130,
+          "T": 9,
+          "W": 11,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "doomsday_ark": {
+          "name": "Doomsday Ark",
+          "role": "Heavy",
+          "points": 195,
+          "T": 9,
+          "W": 13,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "ghost_ark": {
+          "name": "Ghost Ark",
+          "role": "Transport",
+          "points": 145,
+          "T": 10,
+          "W": 12,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "4+"
+        }
+      }
+    },
+    "orks": {
+      "units": {
+        "ghazghkull_thraka": {
+          "name": "Ghazghkull Thraka",
+          "role": "Warlord",
+          "points": 350,
+          "T": 9,
+          "W": 14,
+          "SV": "2+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "warboss": {
+          "name": "Warboss",
+          "role": "Character",
+          "points": 80,
+          "T": 5,
+          "W": 6,
+          "SV": "4+",
+          "M": "5\""
+        },
+        "warboss_on_warbike": {
+          "name": "Warboss on Warbike",
+          "role": "Character",
+          "points": 90,
+          "T": 6,
+          "W": 6,
+          "SV": "4+",
+          "M": "14\""
+        },
+        "weirdboy": {
+          "name": "Weirdboy",
+          "role": "Character",
+          "points": 60,
+          "T": 4,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "big_mek": {
+          "name": "Big Mek",
+          "role": "Character",
+          "points": 60,
+          "T": 4,
+          "W": 4,
+          "SV": "5+",
+          "M": "5\""
+        },
+        "boyz": {
+          "name": "Boyz",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "gretchin": {
+          "name": "Gretchin",
+          "role": "Battleline",
+          "points": 40,
+          "T": 2,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\""
+        },
+        "nobz": {
+          "name": "Nobz",
+          "role": "Elite",
+          "points": 75,
+          "T": 5,
+          "W": 2,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "kommandos": {
+          "name": "Kommandos",
+          "role": "Elite",
+          "points": 70,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "meganobz": {
+          "name": "Meganobz",
+          "role": "Elite",
+          "points": 135,
+          "T": 6,
+          "W": 3,
+          "SV": "2+",
+          "M": "5\""
+        },
+        "deffkoptas": {
+          "name": "Deffkoptas",
+          "role": "Elite",
+          "points": 60,
+          "T": 4,
+          "W": 3,
+          "SV": "5+",
+          "M": "12\""
+        },
+        "killa_kans": {
+          "name": "Killa Kans",
+          "role": "Heavy",
+          "points": 75,
+          "T": 8,
+          "W": 5,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "battlewagon": {
+          "name": "Battlewagon",
+          "role": "Transport",
+          "points": 155,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "9\""
+        },
+        "trukk": {
+          "name": "Trukk",
+          "role": "Transport",
+          "points": 65,
+          "T": 7,
+          "W": 8,
+          "SV": "4+",
+          "M": "12\""
+        }
+      }
+    },
+    "tyranids": {
+      "units": {
+        "the_swarmlord": {
+          "name": "The Swarmlord",
+          "role": "Warlord",
+          "points": 280,
+          "T": 9,
+          "W": 12,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "winged_hive_tyrant": {
+          "name": "Winged Hive Tyrant",
+          "role": "Warlord",
+          "points": 245,
+          "T": 9,
+          "W": 12,
+          "SV": "2+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "hive_tyrant": {
+          "name": "Hive Tyrant",
+          "role": "Warlord",
+          "points": 220,
+          "T": 9,
+          "W": 12,
+          "SV": "2+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "tervigon": {
+          "name": "Tervigon",
+          "role": "Character",
+          "points": 235,
+          "T": 10,
+          "W": 16,
+          "SV": "3+",
+          "M": "8\""
+        },
+        "neurothrope": {
+          "name": "Neurothrope",
+          "role": "Character",
+          "points": 90,
+          "T": 4,
+          "W": 4,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "termagants": {
+          "name": "Termagants",
+          "role": "Battleline",
+          "points": 60,
+          "T": 3,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "hormagaunts": {
+          "name": "Hormagaunts",
+          "role": "Battleline",
+          "points": 60,
+          "T": 3,
+          "W": 1,
+          "SV": "5+",
+          "M": "8\""
+        },
+        "genestealers": {
+          "name": "Genestealers",
+          "role": "Elite",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "tyranid_warriors": {
+          "name": "Tyranid Warriors",
+          "role": "Elite",
+          "points": 120,
+          "T": 5,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "raveners": {
+          "name": "Raveners",
+          "role": "Elite",
+          "points": 100,
+          "T": 5,
+          "W": 3,
+          "SV": "5+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "zoanthropes": {
+          "name": "Zoanthropes",
+          "role": "Elite",
+          "points": 100,
+          "T": 4,
+          "W": 3,
+          "SV": "4+",
+          "M": "5\"",
+          "INV": "5+"
+        },
+        "carnifex": {
+          "name": "Carnifex",
+          "role": "Heavy",
+          "points": 155,
+          "T": 9,
+          "W": 9,
+          "SV": "3+",
+          "M": "8\""
+        },
+        "trygon": {
+          "name": "Trygon",
+          "role": "Heavy",
+          "points": 185,
+          "T": 9,
+          "W": 12,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "tyrannofex": {
+          "name": "Tyrannofex",
+          "role": "Heavy",
+          "points": 175,
+          "T": 10,
+          "W": 12,
+          "SV": "3+",
+          "M": "8\""
+        }
+      }
+    },
+    "genestealer_cults": {
+      "units": {
+        "the_patriarch": {
+          "name": "The Patriarch",
+          "role": "Warlord",
+          "points": 100,
+          "T": 4,
+          "W": 7,
+          "SV": "4+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "broodlord": {
+          "name": "Broodlord",
+          "role": "Character",
+          "points": 95,
+          "T": 4,
+          "W": 6,
+          "SV": "5+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "magus": {
+          "name": "Magus",
+          "role": "Character",
+          "points": 60,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "primus": {
+          "name": "Primus",
+          "role": "Character",
+          "points": 65,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "acolyte_iconward": {
+          "name": "Acolyte Iconward",
+          "role": "Character",
+          "points": 50,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "genestealers": {
+          "name": "Genestealers",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "neophyte_hybrids": {
+          "name": "Neophyte Hybrids",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "acolyte_hybrids": {
+          "name": "Acolyte Hybrids",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "purestrain_genestealers": {
+          "name": "Purestrain Genestealers",
+          "role": "Elite",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "abominant": {
+          "name": "Abominant",
+          "role": "Elite",
+          "points": 100,
+          "T": 6,
+          "W": 5,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "kelermorph": {
+          "name": "Kelermorph",
+          "role": "Elite",
+          "points": 55,
+          "T": 3,
+          "W": 3,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "atalan_jackals": {
+          "name": "Atalan Jackals",
+          "role": "Elite",
+          "points": 75,
+          "T": 4,
+          "W": 2,
+          "SV": "4+",
+          "M": "12\""
+        },
+        "goliath_truck": {
+          "name": "Goliath Truck",
+          "role": "Transport",
+          "points": 75,
+          "T": 7,
+          "W": 8,
+          "SV": "4+",
+          "M": "12\""
+        }
+      }
+    },
+    "tau_empire": {
+      "units": {
+        "commander_farsight": {
+          "name": "Commander Farsight",
+          "role": "Warlord",
+          "points": 130,
+          "T": 5,
+          "W": 7,
+          "SV": "2+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "commander_in_coldstar_battlesuit": {
+          "name": "Commander in Coldstar Battlesuit",
+          "role": "Warlord",
+          "points": 125,
+          "T": 5,
+          "W": 6,
+          "SV": "2+",
+          "M": "14\"",
+          "INV": "4+"
+        },
+        "commander_in_enforcer_battlesuit": {
+          "name": "Commander in Enforcer Battlesuit",
+          "role": "Character",
+          "points": 95,
+          "T": 5,
+          "W": 6,
+          "SV": "2+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "ethereal": {
+          "name": "Ethereal",
+          "role": "Character",
+          "points": 60,
+          "T": 3,
+          "W": 3,
+          "SV": "5+",
+          "M": "6\""
+        },
+        "cadre_fireblade": {
+          "name": "Cadre Fireblade",
+          "role": "Character",
+          "points": 45,
+          "T": 3,
+          "W": 3,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "fire_warriors": {
+          "name": "Fire Warriors",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "kroot_carnivores": {
+          "name": "Kroot Carnivores",
+          "role": "Battleline",
+          "points": 60,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "7\""
+        },
+        "crisis_battlesuits": {
+          "name": "Crisis Battlesuits",
+          "role": "Elite",
+          "points": 145,
+          "T": 5,
+          "W": 3,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "stealth_battlesuits": {
+          "name": "Stealth Battlesuits",
+          "role": "Elite",
+          "points": 70,
+          "T": 4,
+          "W": 2,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "ghostkeel_battlesuit": {
+          "name": "Ghostkeel Battlesuit",
+          "role": "Elite",
+          "points": 150,
+          "T": 7,
+          "W": 9,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "broadside_battlesuits": {
+          "name": "Broadside Battlesuits",
+          "role": "Heavy",
+          "points": 110,
+          "T": 6,
+          "W": 4,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "5+"
+        },
+        "riptide_battlesuit": {
+          "name": "Riptide Battlesuit",
+          "role": "Heavy",
+          "points": 185,
+          "T": 8,
+          "W": 12,
+          "SV": "2+",
+          "M": "9\"",
+          "INV": "5+"
+        },
+        "hammerhead_gunship": {
+          "name": "Hammerhead Gunship",
+          "role": "Heavy",
+          "points": 155,
+          "T": 10,
+          "W": 12,
+          "SV": "3+",
+          "M": "10\""
+        },
+        "devilfish": {
+          "name": "Devilfish",
+          "role": "Transport",
+          "points": 80,
+          "T": 7,
+          "W": 10,
+          "SV": "3+",
+          "M": "10\""
+        }
+      }
+    },
+    "craftworlds": {
+      "units": {
+        "eldrad_ulthran": {
+          "name": "Eldrad Ulthran",
+          "role": "Warlord",
+          "points": 130,
+          "T": 3,
+          "W": 6,
+          "SV": "5+",
+          "M": "7\"",
+          "INV": "5+"
+        },
+        "autarch": {
+          "name": "Autarch",
+          "role": "Character",
+          "points": 85,
+          "T": 3,
+          "W": 4,
+          "SV": "3+",
+          "M": "7\"",
+          "INV": "4+"
+        },
+        "farseer": {
+          "name": "Farseer",
+          "role": "Character",
+          "points": 95,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "7\"",
+          "INV": "4+"
+        },
+        "warlock": {
+          "name": "Warlock",
+          "role": "Character",
+          "points": 45,
+          "T": 3,
+          "W": 2,
+          "SV": "5+",
+          "M": "7\"",
+          "INV": "5+"
+        },
+        "dire_avengers": {
+          "name": "Dire Avengers",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "7\""
+        },
+        "rangers": {
+          "name": "Rangers",
+          "role": "Battleline",
+          "points": 85,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "7\""
+        },
+        "howling_banshees": {
+          "name": "Howling Banshees",
+          "role": "Elite",
+          "points": 110,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "striking_scorpions": {
+          "name": "Striking Scorpions",
+          "role": "Elite",
+          "points": 105,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "8\""
+        },
+        "fire_dragons": {
+          "name": "Fire Dragons",
+          "role": "Elite",
+          "points": 90,
+          "T": 3,
+          "W": 1,
+          "SV": "3+",
+          "M": "7\""
+        },
+        "wraithblades": {
+          "name": "Wraithblades",
+          "role": "Elite",
+          "points": 120,
+          "T": 6,
+          "W": 3,
+          "SV": "3+",
+          "M": "7\"",
+          "INV": "5+"
+        },
+        "wraithguard": {
+          "name": "Wraithguard",
+          "role": "Elite",
+          "points": 130,
+          "T": 6,
+          "W": 3,
+          "SV": "3+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "dark_reapers": {
+          "name": "Dark Reapers",
+          "role": "Heavy",
+          "points": 95,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "6\""
+        },
+        "war_walker": {
+          "name": "War Walker",
+          "role": "Heavy",
+          "points": 80,
+          "T": 7,
+          "W": 4,
+          "SV": "3+",
+          "M": "9\""
+        },
+        "wraithlord": {
+          "name": "Wraithlord",
+          "role": "Heavy",
+          "points": 110,
+          "T": 8,
+          "W": 8,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "wave_serpent": {
+          "name": "Wave Serpent",
+          "role": "Transport",
+          "points": 135,
+          "T": 9,
+          "W": 13,
+          "SV": "3+",
+          "M": "14\"",
+          "INV": "5+"
+        }
+      }
+    },
+    "drukhari": {
+      "units": {
+        "asdrubael_vect": {
+          "name": "Asdrubael Vect",
+          "role": "Warlord",
+          "points": 300,
+          "T": 6,
+          "W": 6,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "lelith_hesperax": {
+          "name": "Lelith Hesperax",
+          "role": "Character",
+          "points": 80,
+          "T": 3,
+          "W": 5,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "archon": {
+          "name": "Archon",
+          "role": "Character",
+          "points": 75,
+          "T": 3,
+          "W": 4,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "succubus": {
+          "name": "Succubus",
+          "role": "Character",
+          "points": 70,
+          "T": 3,
+          "W": 4,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "4+"
+        },
+        "haemonculus": {
+          "name": "Haemonculus",
+          "role": "Character",
+          "points": 70,
+          "T": 3,
+          "W": 4,
+          "SV": "5+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "kabalite_warriors": {
+          "name": "Kabalite Warriors",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "8\""
+        },
+        "wyches": {
+          "name": "Wyches",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "4+",
+          "M": "8\"",
+          "INV": "6+"
+        },
+        "wracks": {
+          "name": "Wracks",
+          "role": "Battleline",
+          "points": 80,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\"",
+          "INV": "6+"
+        },
+        "incubi": {
+          "name": "Incubi",
+          "role": "Elite",
+          "points": 90,
+          "T": 3,
+          "W": 2,
+          "SV": "3+",
+          "M": "7\""
+        },
+        "mandrakes": {
+          "name": "Mandrakes",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 1,
+          "SV": "6+",
+          "M": "7\"",
+          "INV": "5+"
+        },
+        "grotesques": {
+          "name": "Grotesques",
+          "role": "Elite",
+          "points": 100,
+          "T": 5,
+          "W": 3,
+          "SV": "5+",
+          "M": "7\"",
+          "INV": "6+"
+        },
+        "ravager": {
+          "name": "Ravager",
+          "role": "Heavy",
+          "points": 130,
+          "T": 8,
+          "W": 9,
+          "SV": "4+",
+          "M": "14\"",
+          "INV": "5+"
+        },
+        "raider": {
+          "name": "Raider",
+          "role": "Transport",
+          "points": 80,
+          "T": 7,
+          "W": 8,
+          "SV": "4+",
+          "M": "16\"",
+          "INV": "5+"
+        },
+        "venom": {
+          "name": "Venom",
+          "role": "Transport",
+          "points": 65,
+          "T": 5,
+          "W": 6,
+          "SV": "4+",
+          "M": "16\"",
+          "INV": "5+"
+        }
+      }
+    },
+    "leagues_of_votann": {
+      "units": {
+        "ûthar_the_destined": {
+          "name": "Ûthar the Destined",
+          "role": "Warlord",
+          "points": 100,
+          "T": 4,
+          "W": 6,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "kâhl": {
+          "name": "Kâhl",
+          "role": "Character",
+          "points": 75,
+          "T": 4,
+          "W": 5,
+          "SV": "3+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "einhyr_champion": {
+          "name": "Einhyr Champion",
+          "role": "Character",
+          "points": 80,
+          "T": 5,
+          "W": 5,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "grimnyr": {
+          "name": "Grimnyr",
+          "role": "Character",
+          "points": 60,
+          "T": 3,
+          "W": 4,
+          "SV": "3+",
+          "M": "5\""
+        },
+        "hearthkyn_warriors": {
+          "name": "Hearthkyn Warriors",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 2,
+          "SV": "4+",
+          "M": "5\""
+        },
+        "hearthguard_berserkers": {
+          "name": "Hearthguard Berserkers",
+          "role": "Elite",
+          "points": 90,
+          "T": 5,
+          "W": 2,
+          "SV": "3+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "einhyr_hearthguard": {
+          "name": "Einhyr Hearthguard",
+          "role": "Elite",
+          "points": 90,
+          "T": 5,
+          "W": 2,
+          "SV": "2+",
+          "M": "5\"",
+          "INV": "4+"
+        },
+        "cthonian_beserks": {
+          "name": "Cthonian Beserks",
+          "role": "Elite",
+          "points": 75,
+          "T": 5,
+          "W": 2,
+          "SV": "4+",
+          "M": "6\"",
+          "INV": "4+"
+        },
+        "hernkyn_yaegirs": {
+          "name": "Hernkyn Yaegirs",
+          "role": "Elite",
+          "points": 80,
+          "T": 4,
+          "W": 2,
+          "SV": "4+",
+          "M": "6\""
+        },
+        "sagitaur": {
+          "name": "Sagitaur",
+          "role": "Transport",
+          "points": 115,
+          "T": 8,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\""
+        },
+        "magna-coil_bisector": {
+          "name": "Magna-Coil Bisector",
+          "role": "Heavy",
+          "points": 145,
+          "T": 10,
+          "W": 11,
+          "SV": "3+",
+          "M": "8\""
+        }
+      }
+    },
+    "chaos_daemons": {
+      "units": {
+        "belakor": {
+          "name": "Be'lakor",
+          "role": "Warlord",
+          "points": 370,
+          "T": 10,
+          "W": 16,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "bloodthirster": {
+          "name": "Bloodthirster",
+          "role": "Warlord",
+          "points": 310,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "great_unclean_one": {
+          "name": "Great Unclean One",
+          "role": "Warlord",
+          "points": 285,
+          "T": 10,
+          "W": 18,
+          "SV": "4+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "lord_of_change": {
+          "name": "Lord of Change",
+          "role": "Warlord",
+          "points": 295,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "keeper_of_secrets": {
+          "name": "Keeper of Secrets",
+          "role": "Warlord",
+          "points": 295,
+          "T": 9,
+          "W": 13,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "4+"
+        },
+        "skarbrand": {
+          "name": "Skarbrand",
+          "role": "Warlord",
+          "points": 335,
+          "T": 10,
+          "W": 14,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "4+"
+        },
+        "daemon_prince": {
+          "name": "Daemon Prince",
+          "role": "Character",
+          "points": 155,
+          "T": 8,
+          "W": 10,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "4+"
+        },
+        "bloodletters": {
+          "name": "Bloodletters",
+          "role": "Battleline",
+          "points": 90,
+          "T": 4,
+          "W": 1,
+          "SV": "5+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "daemonettes": {
+          "name": "Daemonettes",
+          "role": "Battleline",
+          "points": 80,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "plaguebearers": {
+          "name": "Plaguebearers",
+          "role": "Battleline",
+          "points": 80,
+          "T": 4,
+          "W": 1,
+          "SV": "6+",
+          "M": "5\"",
+          "INV": "5+"
+        },
+        "pink_horrors": {
+          "name": "Pink Horrors",
+          "role": "Battleline",
+          "points": 95,
+          "T": 3,
+          "W": 1,
+          "SV": "6+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "bloodcrushers": {
+          "name": "Bloodcrushers",
+          "role": "Elite",
+          "points": 130,
+          "T": 6,
+          "W": 3,
+          "SV": "3+",
+          "M": "8\"",
+          "INV": "5+"
+        },
+        "fiends": {
+          "name": "Fiends",
+          "role": "Elite",
+          "points": 115,
+          "T": 5,
+          "W": 3,
+          "SV": "5+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "flamers": {
+          "name": "Flamers",
+          "role": "Elite",
+          "points": 100,
+          "T": 4,
+          "W": 2,
+          "SV": "6+",
+          "M": "6\"",
+          "INV": "5+"
+        },
+        "skull_cannon": {
+          "name": "Skull Cannon",
+          "role": "Heavy",
+          "points": 140,
+          "T": 9,
+          "W": 9,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "soul_grinder": {
+          "name": "Soul Grinder",
+          "role": "Heavy",
+          "points": 185,
+          "T": 11,
+          "W": 16,
+          "SV": "3+",
+          "M": "9\"",
+          "INV": "5+"
+        }
+      }
+    },
+    "chaos_knights": {
+      "units": {
+        "knight_abominant": {
+          "name": "Knight Abominant",
+          "role": "Warlord",
+          "points": 450,
+          "T": 12,
+          "W": 22,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "chaos_knight": {
+          "name": "Chaos Knight",
+          "role": "Warlord",
+          "points": 380,
+          "T": 12,
+          "W": 20,
+          "SV": "3+",
+          "M": "10\"",
+          "INV": "5+"
+        },
+        "war_dog_executioner": {
+          "name": "War Dog Executioner",
+          "role": "Elite",
+          "points": 175,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "war_dog_huntsman": {
+          "name": "War Dog Huntsman",
+          "role": "Elite",
+          "points": 165,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "war_dog_karnivore": {
+          "name": "War Dog Karnivore",
+          "role": "Elite",
+          "points": 160,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "war_dog_brigand": {
+          "name": "War Dog Brigand",
+          "role": "Elite",
+          "points": 165,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        },
+        "war_dog_stalker": {
+          "name": "War Dog Stalker",
+          "role": "Elite",
+          "points": 160,
+          "T": 9,
+          "W": 10,
+          "SV": "3+",
+          "M": "12\"",
+          "INV": "5+"
+        }
+      }
+    }
+  }
+}
