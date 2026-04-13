@@ -9336,7 +9336,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2D6",
-              "BS": "4+",
+              "BS": "3+",
               "S": "5",
               "AP": "-1",
               "D": "1",
@@ -9347,7 +9347,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2",
-              "BS": "4+",
+              "BS": "3+",
               "S": "10",
               "AP": "-2",
               "D": "D6+1",
@@ -15666,7 +15666,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2D6",
-              "BS": "4+",
+              "BS": "3+",
               "S": "5",
               "AP": "-1",
               "D": "1",
@@ -15677,7 +15677,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2",
-              "BS": "4+",
+              "BS": "3+",
               "S": "10",
               "AP": "-2",
               "D": "D6+1",
@@ -20961,7 +20961,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2D6",
-              "BS": "4+",
+              "BS": "3+",
               "S": "5",
               "AP": "-1",
               "D": "1",
@@ -20972,7 +20972,7 @@
               "type": "Ranged",
               "range": "48\"",
               "A": "2",
-              "BS": "4+",
+              "BS": "3+",
               "S": "10",
               "AP": "-2",
               "D": "D6+1",
@@ -46063,7 +46063,7 @@
         },
         "venerable_contemptor_dreadnought": {
           "name": "Venerable Contemptor Dreadnought",
-          "role": "Character",
+          "role": "Other",
           "points": 170,
           "stats": {
             "M": "6\"",
@@ -46074,7 +46074,7 @@
             "OC": "3"
           },
           "unit_size": "",
-          "keywords": "Venerable Contemptor Dreadnought, Vehicle, Walker, Imperium, AC Walker, Damage Dx Weapon, Character",
+          "keywords": "Venerable Contemptor Dreadnought, Vehicle, Walker, Imperium, AC Walker, Damage Dx Weapon",
           "faction_keywords": "Adeptus Custodes",
           "leader": "",
           "weapons": [
@@ -47282,7 +47282,7 @@
         },
         "contemptor_galatus_dreadnought": {
           "name": "Contemptor-Galatus Dreadnought",
-          "role": "Character",
+          "role": "Other",
           "points": 165,
           "stats": {
             "M": "6\"",
@@ -47293,7 +47293,7 @@
             "OC": "3"
           },
           "unit_size": "",
-          "keywords": "Contemptor-Galatus Dreadnought, Vehicle, Walker, Imperium, AC Walker, Character",
+          "keywords": "Contemptor-Galatus Dreadnought, Vehicle, Walker, Imperium, AC Walker",
           "faction_keywords": "Adeptus Custodes",
           "leader": "",
           "weapons": [
@@ -47329,7 +47329,7 @@
         },
         "contemptor_achillus_dreadnought": {
           "name": "Contemptor-Achillus Dreadnought",
-          "role": "Character",
+          "role": "Other",
           "points": 155,
           "stats": {
             "M": "6\"",
@@ -47340,7 +47340,7 @@
             "OC": "3"
           },
           "unit_size": "",
-          "keywords": "Vehicle, Imperium, Walker, Contemptor-Achillus Dreadnought, AC Walker, Attacks Dx Weapon, Character",
+          "keywords": "Vehicle, Imperium, Walker, Contemptor-Achillus Dreadnought, AC Walker, Attacks Dx Weapon",
           "faction_keywords": "Adeptus Custodes",
           "leader": "",
           "weapons": [
@@ -47529,7 +47529,7 @@
         },
         "telemon_heavy_dreadnought": {
           "name": "Telemon Heavy Dreadnought",
-          "role": "Character",
+          "role": "Other",
           "points": 225,
           "stats": {
             "M": "8\"",
@@ -47540,7 +47540,7 @@
             "OC": "4"
           },
           "unit_size": "",
-          "keywords": "Vehicle, Imperium, Telemon Heavy Dreadnought, Walker, AC Walker, Attacks Dx Weapon, Character",
+          "keywords": "Vehicle, Imperium, Telemon Heavy Dreadnought, Walker, AC Walker, Attacks Dx Weapon",
           "faction_keywords": "Adeptus Custodes",
           "leader": "",
           "weapons": [
@@ -47815,7 +47815,7 @@
           "abilities": [
             {
               "name": "Infernus Firebomb",
-              "text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for eah model in that unit: for each 6, that unit suffers 1 mortal wound."
+              "text": "Each time this model ends a Normal move, you can select one enemy unit it moved over during that move. Until the end of the turn, models in that unit cannot have the Benefit of Cover. In addition, roll one D6 for each model in that unit: for each 6, that unit suffers 1 mortal wound."
             },
             {
               "name": "Damaged: 1-7 wounds remaining",
