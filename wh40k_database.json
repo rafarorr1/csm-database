@@ -11897,10 +11897,22 @@
             "OC": "3"
           },
           "unit_size": "",
-          "keywords": "Monster, Character, Chaos, Nurgle, Daemon, Fly, Daemon Prince with Wings",
+          "keywords": "Monster, Character, Chaos, Nurgle, Daemon, Fly, Daemon Prince with Wings, Ranged Weapon",
           "faction_keywords": "Death Guard",
           "leader": "",
-          "weapons": [],
+          "weapons": [
+            {
+              "name": "Infernal cannon",
+              "type": "Ranged",
+              "range": "24\"",
+              "A": "3",
+              "BS": "2+",
+              "S": "7",
+              "AP": "-1",
+              "D": "2",
+              "keywords": "Lethal Hits"
+            }
+          ],
           "abilities": [
             {
               "name": "Horrifying Visage",
