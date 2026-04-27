@@ -9275,13 +9275,9 @@
           "unit_size": "",
           "keywords": "Character, Chaos, Mounted, Daemon, Helstalker, Soul Forge Tyrant",
           "faction_keywords": "Heretic Astartes",
-          "leader": "This model can be attached to the following units: ^^**Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**^^",
+          "leader": "",
           "weapons": [],
           "abilities": [
-            {
-              "name": "Leader",
-              "text": "This model can be attached to the following units: ^^**Chosen, Havocs, Legionaries, Nemesis Claw, Raiders**^^"
-            },
             {
               "name": "Skulking Nightmare",
               "text": "While this model is within 3\" of one or more friendly ^^**Heretic Astartes Infantry**^^ units, this model has the Lone Operative ability."
@@ -10996,7 +10992,7 @@
             "T": "5",
             "SV": "4+",
             "W": "4",
-            "LD": "7",
+            "LD": "7+",
             "OC": "1"
           },
           "unit_size": "",
@@ -44649,6 +44645,79 @@
               "text": "This model has a 4+ invulnerable save."
             }
           ]
+        },
+        "intranzia_fraye": {
+          "name": "Intranzia Fraye",
+          "role": "Character",
+          "points": 150,
+          "stats": {
+            "M": "8\"",
+            "T": "7",
+            "SV": "3+",
+            "W": "8",
+            "LD": "6+",
+            "OC": "3"
+          },
+          "unit_size": "",
+          "keywords": "Vehicle, Walker, Imperium, Character, Penitent, Epic Hero, Intranzia Fraye",
+          "faction_keywords": "Adepta Sororitas",
+          "leader": "",
+          "weapons": [
+            {
+              "name": "Heavy bolter",
+              "type": "Ranged",
+              "range": "36\"",
+              "A": "3",
+              "BS": "2+",
+              "S": "5",
+              "AP": "-1",
+              "D": "2",
+              "keywords": "Sustained Hits 1"
+            },
+            {
+              "name": "Melta missile array",
+              "type": "Ranged",
+              "range": "24\"",
+              "A": "2",
+              "BS": "2+",
+              "S": "9",
+              "AP": "-2",
+              "D": "D3",
+              "keywords": "Melta 2"
+            },
+            {
+              "name": "Mace of Saint Praxedes",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "4",
+              "WS": "2+",
+              "S": "6",
+              "AP": "-2",
+              "D": "2",
+              "keywords": "Sustained Hits 1"
+            },
+            {
+              "name": "Throne of Blame",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "4",
+              "WS": "4+",
+              "S": "6",
+              "AP": "0",
+              "D": "1",
+              "keywords": "Extra Attacks"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Righteous Denunciation",
+              "text": "At the start of the Fight phase, each enemy unit within 6\" of this model must take a Battle‑shock test, subtracting 1 from that test."
+            },
+            {
+              "name": "Judged for Execution",
+              "text": "At the end of your Movement phase, you can select one enemy unit within 18\" of and visible to this model. Until the start of your next Command phase, each time a friendly ^^**Adepta Sororitas**^^ model makes an attack that targets that enemy unit, that attack has the [LETHAL HITS] ability."
+            }
+          ]
         }
       }
     },
@@ -52923,8 +52992,8 @@
         "wahapedia_url": "https://wahapedia.ru/wh40k10ed/factions/"
       },
       "army_rule": {
-        "name": "Reanimation Protocols",
-        "text": "If your Army Faction is NECRONS, at the end of your Command phase, each unit from your army with this ability that is on the battlefield activates its Reanimation Protocols and reanimates D3 wounds. Each time such a unit reanimates a wound:\n■ If that unit contains one or more models with fewer than their starting number of wounds remaining, select one of those models; that model regains one lost wound.\n■ If all models in that unit have their starting number of wounds, but that unit is not at its Starting Strength, one destroyed model is returned to that unit with one wound remaining.\nOnce such a unit is at its Starting Strength and all of its models have their starting number of wounds, nothing further happens."
+        "name": "Titanic Walker",
+        "text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over models (excluding ^^**Titanic**^^ models) and terrain features that are 4\" or less in height as if they were not there."
       },
       "faction_mechanic": {
         "name": "",
