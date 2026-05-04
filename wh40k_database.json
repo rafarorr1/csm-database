@@ -41269,7 +41269,7 @@
               "text": "At the start of your Shooting phase, select one enemy unit within 12\" of and visible to this unit's Ephrael Stern model. That unit must take a Battle-shock test, subtracting 2 from the result if it is a Chaos unit. If the test is failed, that enemy unit suffers 3 mortal wounds."
             },
             {
-              "name": "Mysterious Savious",
+              "name": "Mysterious Saviours",
               "text": "You can target this unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
             },
             {
@@ -62936,6 +62936,94 @@
               "text": "This model can be attached to the following units:\n- **^^Gretchin^^**"
             }
           ]
+        },
+        "wazdakka_gutsmek": {
+          "name": "Wazdakka Gutsmek",
+          "role": "Character",
+          "points": 175,
+          "stats": {
+            "M": "14\"",
+            "T": "8",
+            "SV": "3+",
+            "W": "10",
+            "LD": "6+",
+            "OC": "3"
+          },
+          "unit_size": "",
+          "keywords": "Epic Hero, Character, Wazdakka Gutsmek, Mounted, Vehicle, Speed Freeks, Smoke, Wazdakka Warlord Flag",
+          "faction_keywords": "Orks",
+          "leader": "",
+          "weapons": [
+            {
+              "name": "Fixit's wrench",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "1",
+              "WS": "4+",
+              "S": "3",
+              "AP": "0",
+              "D": "1",
+              "keywords": "Extra Attacks"
+            },
+            {
+              "name": "Psyko-gatler",
+              "type": "Ranged",
+              "range": "24\"",
+              "A": "12",
+              "BS": "4+",
+              "S": "6",
+              "AP": "-2",
+              "D": "2",
+              "keywords": "Assault, Sustained Hits 1"
+            },
+            {
+              "name": "Grabba dragga",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "6",
+              "WS": "2+",
+              "S": "10",
+              "AP": "-2",
+              "D": "3",
+              "keywords": "Lance"
+            },
+            {
+              "name": "Grabba dragga",
+              "type": "Ranged",
+              "range": "12\"",
+              "A": "1",
+              "BS": "2+",
+              "S": "10",
+              "AP": "-2",
+              "D": "3",
+              "keywords": "Assault, Precision"
+            },
+            {
+              "name": "Speeding bulk and flaming exhaust",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "6",
+              "WS": "2+",
+              "S": "5",
+              "AP": "-1",
+              "D": "1",
+              "keywords": "Extra Attacks"
+            }
+          ],
+          "abilities": [
+            {
+              "name": "Fixit da Grot",
+              "text": "At the start of your Command phase, this model regains up to D3 lost wounds."
+            },
+            {
+              "name": "Waaagh! Wazdakka",
+              "text": "If this model is your **^^Warlord^^**, **^^Warbiker^^** units from your army have the **^^Battleline^^** keyword."
+            },
+            {
+              "name": "Throttlerokkit Shokka Engine",
+              "text": "In your Command phase, select one of the abilities in the Throttlerokkit Shokka Engine section. Until the start of your next Command phase, this model has that ability."
+            }
+          ]
         }
       }
     },
@@ -66029,6 +66117,17 @@
               "AP": "-1",
               "D": "1",
               "keywords": "Ignores Cover, Torrent"
+            },
+            {
+              "name": "Heavy stubber",
+              "type": "Ranged",
+              "range": "36\"",
+              "A": "3",
+              "BS": "4+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": "Assault, Rapid Fire 3"
             }
           ],
           "abilities": [
@@ -66156,6 +66255,17 @@
               "AP": "-1",
               "D": "1",
               "keywords": "Ignores Cover, Torrent"
+            },
+            {
+              "name": "Heavy stubber",
+              "type": "Ranged",
+              "range": "36\"",
+              "A": "3",
+              "BS": "4+",
+              "S": "4",
+              "AP": "0",
+              "D": "1",
+              "keywords": "Assault, Rapid Fire 3"
             }
           ],
           "abilities": []
@@ -71498,12 +71608,12 @@
               "text": "This model can be attached to the following unit:\n- **^^Kroot Carnivores^^**\n- **^^Kroot Farstalkers^^**"
             },
             {
-              "name": "Ritual Butchery",
-              "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
+              "name": "Rites of Feasting",
+              "text": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, until the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
             },
             {
-              "name": "Rites of Feasting",
-              "text": "While this model is leading a unit, models in that unit have the Feel Not Pain 6+ ability. If that unit destroys one or more enemy units in the Fight phase, unit the end of the battle, models in that unit have the Feel No Pain 5+ ability instead."
+              "name": "Ritual Butchery",
+              "text": "While this model is leading a unit, melee weapons equipped by models in that unit have the [SUSTAINED HITS 1] ability."
             }
           ]
         },
