@@ -30519,7 +30519,7 @@
           "unit_size": "",
           "keywords": "Character, Infantry, Grenades, Imperium, Sanguinary Priest, Tacticus",
           "faction_keywords": "Adeptus Astartes, Blood Angels",
-          "leader": "This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**",
+          "leader": "This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**\n\n\nYou can attach this model to one of the above units, even if one **^^Captain, Chapter Master^^** or **^^Lieutenant**^^ model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths",
           "weapons": [],
           "abilities": [
             {
@@ -30532,7 +30532,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**"
+              "text": "This model can be attached to the following units: \n- **^^Assault Intercessor Squad^^**\n- **^^Bladeguard Veteran Squad^^**\n- **^^Desolation Squad^^**\n- **^^Devastator Squad^^**\n- **^^Hellblaster Squad^^**\n- **^^Infernus Squad^^**\n- **^^Intercessor Squad^^**\n- **^^Tactical Squad^^**\n- **^^Sternguard Veteran Squad^^**\n\n\nYou can attach this model to one of the above units, even if one **^^Captain, Chapter Master^^** or **^^Lieutenant**^^ model has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their original Starting Strengths"
             }
           ]
         },
