@@ -66578,7 +66578,7 @@
           "abilities": [
             {
               "name": "Priority Target",
-              "text": "Each time this model makes an attack with its cult sniper rifle that targets an enemy unit, if it scores a hit, until the end of the phase, each time another GENESTEALER CULTS model from your army makes a ranged attack that targets that enemy unit, re-roll a Hit roll of 1."
+              "text": "In your Shooting phase, after this model's unit has shot, select one enemy unit hit by one or more of those attacks made with a cult sniper rifle. Until the end of the phase, each time a friendly **^^Genestealer Cults^^** model makes an attack that targets that enemy unit, re-roll a Hit roll of 1."
             },
             {
               "name": "Master Outrider",
