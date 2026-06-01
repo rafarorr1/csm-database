@@ -6133,7 +6133,7 @@
           "unit_size": "",
           "keywords": "Mounted, Character, Grenades, Chaos, Khorne, Chaos Lord, Juggernaut, Melee Weapon, Extra Attacks Weapon, Melee Weapon, Melee Weapon, Melee Weapon, Melee Weapon, Melee Weapon, Melee Weapon, Melee Weapon, Ranged Weapon",
           "faction_keywords": "Heretic Astartes",
-          "leader": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERSERKERS",
+          "leader": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERZERKERS",
           "weapons": [
             {
               "name": "Bladed horn",
@@ -6242,7 +6242,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERSERKERS"
+              "text": "This model can be attached to the following unit:\n■ CHAOS BIKERS\n■ KHORNE BERZERKERS"
             },
             {
               "name": "Bloody Stampede",
@@ -9585,7 +9585,7 @@
           "unit_size": "",
           "keywords": "Infantry, Character, Epic Hero, Grenades, Chaos, Khorne, Khârn the Betrayer",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**",
+          "leader": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**",
           "weapons": [
             {
               "name": "Gorechild",
@@ -9618,7 +9618,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**"
+              "text": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
             }
           ]
         },
@@ -9637,7 +9637,7 @@
           "unit_size": "",
           "keywords": "Mounted, Character, Epic Hero, Chaos, Khorne, Lord Invocatus, Extra Attacks Weapon",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**",
+          "leader": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
           "weapons": [
             {
               "name": "Bolt pistol",
@@ -9680,7 +9680,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**"
+              "text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
             },
             {
               "name": "Fire Riders",
@@ -9843,7 +9843,7 @@
           "unit_size": "",
           "keywords": "Mounted, Character, Chaos, Khorne, Lord on Juggernaut, Melee Weapon, Extra Attacks Weapon, Not Extra Attacks, Melee Weapon",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**",
+          "leader": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**",
           "weapons": [
             {
               "name": "Bladed horn",
@@ -9883,7 +9883,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berserkers^^**"
+              "text": "This model can be attached to the following units: ^^**Eightbound^^**, ^^**Exalted Eightbound^^**, ^^**Khorne Berzerkers^^**"
             }
           ]
         },
@@ -9902,7 +9902,7 @@
           "unit_size": "",
           "keywords": "Infantry, Character, Chaos, Khorne, Master of Executions, Not Extra Attacks, Melee Weapon, Ranged Weapon",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**",
+          "leader": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**",
           "weapons": [
             {
               "name": "Axe of dismemberment",
@@ -9930,7 +9930,7 @@
           "abilities": [
             {
               "name": "Leader",
-              "text": "This model can be attached to the following unit: ^^**Khorne Berserkers^^**"
+              "text": "This model can be attached to the following unit: ^^**Khorne Berzerkers^^**"
             },
             {
               "name": "A Worthy Skull",
@@ -11737,7 +11737,7 @@
           "unit_size": "",
           "keywords": "Infantry, Character, Grenades, Chaos, Khorne, Butcherlord, Crucible",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^",
+          "leader": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^",
           "weapons": [],
           "abilities": [
             {
@@ -11750,7 +11750,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^"
+              "text": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
             }
           ]
         },
@@ -11769,7 +11769,7 @@
           "unit_size": "",
           "keywords": "Character, Chaos, Khorne, Mounted, Eight-blessed Lord, Crucible, Extra Attacks Weapon",
           "faction_keywords": "World Eaters",
-          "leader": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^",
+          "leader": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^",
           "weapons": [
             {
               "name": "Bladed horn",
@@ -11794,7 +11794,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following unit: ^^**Khorne Berserkers**^^"
+              "text": "This model can be attached to the following unit: ^^**Khorne Berzerkers**^^"
             }
           ]
         },
@@ -39263,7 +39263,7 @@
             "OC": "1"
           },
           "unit_size": "",
-          "keywords": "Castellan Crowe, Psyker, Imperium, Epic Hero, Infantry, Character, Psychic Weapon",
+          "keywords": "Castellan Crowe, Psyker, Imperium, Epic Hero, Infantry, Character",
           "faction_keywords": "Grey Knights",
           "leader": "This model can be attached to the following unit:\n■ Purifier Squad",
           "weapons": [
@@ -40539,7 +40539,7 @@
             "OC": "2"
           },
           "unit_size": "",
-          "keywords": "Dedicated Transport, Vehicle, Transport, Smoke, Imperium, Relic Razorback, Psychic Weapon",
+          "keywords": "Dedicated Transport, Vehicle, Transport, Smoke, Imperium, Relic Razorback, Psychic Weapon, Ranged Weapon",
           "faction_keywords": "Grey Knights",
           "leader": "",
           "weapons": [
@@ -52948,6 +52948,25 @@
           "leader": "",
           "weapons": [],
           "abilities": []
+        },
+        "hastarii_fusilier": {
+          "name": "Hastarii Fusilier",
+          "role": "Other",
+          "points": {},
+          "stats": {
+            "M": "5\"",
+            "T": "4",
+            "SV": "3+",
+            "W": "2",
+            "LD": "7+",
+            "OC": "1"
+          },
+          "unit_size": "",
+          "keywords": "",
+          "faction_keywords": "",
+          "leader": "",
+          "weapons": [],
+          "abilities": []
         }
       }
     },
@@ -61500,7 +61519,7 @@
             },
             {
               "name": "Speed Freeks Mob",
-              "text": "If a model from your army with the Leader ability can be attached to a WARBIKERS unit, it can be attached to this unit instead."
+              "text": "If a model from your army with the Leader ability can be attached to a **^^Warbikers^^** unit, it can be attached to this unit instead."
             }
           ]
         },
@@ -68476,10 +68495,6 @@
             {
               "name": "Forward Observers",
               "text": "Each time this unit is an Observer unit, until the end of the phase, each time a ranged attack is made by a model in a Guided unit that targets their Spotted unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
-            },
-            {
-              "name": "Homing Beacon",
-              "text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 9\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
             }
           ]
         },
@@ -68538,12 +68553,7 @@
           "faction_keywords": "",
           "leader": "",
           "weapons": [],
-          "abilities": [
-            {
-              "name": "Homing Beacon",
-              "text": "Once per battle, you can use the Rapid Ingress Stratagem for 0CP. The target must be set up within 3\" of the bearer’s unit and more than 9\" away from all enemy units.\n**Designer’s Note:** *Place a Homing Beacon token next to this unit, removing it once this ability is used.*"
-            }
-          ]
+          "abilities": []
         },
         "ghostkeel_battlesuit": {
           "name": "Ghostkeel Battlesuit",
