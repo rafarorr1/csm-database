@@ -5676,6 +5676,17 @@
               "AP": "0",
               "D": "1",
               "keywords": "-"
+            },
+            {
+              "name": "Twin autocannon",
+              "type": "Ranged",
+              "range": "48\"",
+              "A": "2",
+              "BS": "3+",
+              "S": "9",
+              "AP": "-3",
+              "D": "3",
+              "keywords": "Twin-linked"
             }
           ],
           "abilities": [
@@ -26755,7 +26766,7 @@
           "role": "Other",
           "points": 280,
           "stats": {
-            "M": "20\"+",
+            "M": "20+\"",
             "T": "10",
             "SV": "3+",
             "W": "14",
@@ -37118,50 +37129,6 @@
               "keywords": "Precision"
             },
             {
-              "name": "Thunderclap",
-              "type": "Ranged",
-              "range": "12\"",
-              "A": "D3",
-              "BS": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": "Blast, Psychic"
-            },
-            {
-              "name": "Runic Stave",
-              "type": "Melee",
-              "range": "Melee",
-              "A": "3",
-              "WS": "3+",
-              "S": "6",
-              "AP": "-1",
-              "D": "D3",
-              "keywords": "Psychic"
-            },
-            {
-              "name": "Thunderclap",
-              "type": "Ranged",
-              "range": "12\"",
-              "A": "D3",
-              "BS": "3+",
-              "S": "5",
-              "AP": "-1",
-              "D": "2",
-              "keywords": "Blast, Psychic"
-            },
-            {
-              "name": "Runic Stave",
-              "type": "Melee",
-              "range": "Melee",
-              "A": "3",
-              "WS": "3+",
-              "S": "6",
-              "AP": "-1",
-              "D": "D3",
-              "keywords": "Psychic"
-            },
-            {
               "name": "Teeth and Claws",
               "type": "Melee",
               "range": "Melee",
@@ -37176,19 +37143,11 @@
           "abilities": [
             {
               "name": "Hunting Hounds",
-              "text": "While this unit is within 6\" of one or more friendly Space Wolves Character models (excluding Wulfen\nmodels), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1"
+              "text": "While this unit is within 6\" of one or more friendly ^^**Space Wolves Character**^^ models (excluding ^^**Wulfen**^^ models), if this unit is not Battle-shocked, Hunting Wolves models in this unit have an Objective Control characteristic of 1."
             },
             {
               "name": "Deadly Stalkers",
-              "text": "Each time a model in this unit makes an\nattack that targets an enemy unit, if there are no other units\nfrom your opponent’s army within 6\" of that target, add 1 to the\nWound roll."
-            },
-            {
-              "name": "Haywire Mine",
-              "text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
-            },
-            {
-              "name": "Haywire Mine",
-              "text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
+              "text": "Each time a model in this unit makes an attack that targets an enemy unit, if there are no other units from your opponent’s army within 6\" of that target, add 1 to the Wound roll."
             }
           ]
         },
@@ -37223,8 +37182,8 @@
           ],
           "abilities": []
         },
-        "wolf_scout": {
-          "name": "Wolf Scout",
+        "wolf_scout_w_instigator_bolt_carbine": {
+          "name": "Wolf Scout w/ instigator bolt carbine",
           "role": "Other",
           "points": {},
           "stats": {},
@@ -37243,6 +37202,59 @@
               "AP": "-2",
               "D": "2",
               "keywords": "Precision"
+            }
+          ],
+          "abilities": []
+        },
+        "wolf_scout_w_haywire_mine": {
+          "name": "Wolf Scout w/ haywire mine",
+          "role": "Other",
+          "points": {},
+          "stats": {},
+          "unit_size": "",
+          "keywords": "",
+          "faction_keywords": "",
+          "leader": "",
+          "weapons": [],
+          "abilities": [
+            {
+              "name": "Haywire Mine",
+              "text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a ^^**Vehicle**^^ unit."
+            }
+          ]
+        },
+        "wolf_scout_w_plasma_gun": {
+          "name": "Wolf Scout w/ plasma gun",
+          "role": "Other",
+          "points": {},
+          "stats": {},
+          "unit_size": "",
+          "keywords": "",
+          "faction_keywords": "",
+          "leader": "",
+          "weapons": [],
+          "abilities": []
+        },
+        "wolf_scout_w_runic_stave_and_thunderclap": {
+          "name": "Wolf Scout w/ runic stave and Thunderclap",
+          "role": "Other",
+          "points": {},
+          "stats": {},
+          "unit_size": "",
+          "keywords": "",
+          "faction_keywords": "",
+          "leader": "",
+          "weapons": [
+            {
+              "name": "Runic Stave",
+              "type": "Melee",
+              "range": "Melee",
+              "A": "3",
+              "WS": "3+",
+              "S": "6",
+              "AP": "-1",
+              "D": "D3",
+              "keywords": "Psychic"
             },
             {
               "name": "Thunderclap",
@@ -37254,25 +37266,21 @@
               "AP": "-1",
               "D": "2",
               "keywords": "Blast, Psychic"
-            },
-            {
-              "name": "Runic Stave",
-              "type": "Melee",
-              "range": "Melee",
-              "A": "3",
-              "WS": "3+",
-              "S": "6",
-              "AP": "-1",
-              "D": "D3",
-              "keywords": "Psychic"
             }
           ],
-          "abilities": [
-            {
-              "name": "Haywire Mine",
-              "text": "Once per battle, at the start of any phase, you can select one enemy unit within 3\" of the bearer and roll one D6: on a 2+, that enemy unit suffers D3 mortal wounds, or 2D3 mortal wounds instead if it is a Vehicle unit."
-            }
-          ]
+          "abilities": []
+        },
+        "wolf_scout": {
+          "name": "Wolf Scout",
+          "role": "Other",
+          "points": {},
+          "stats": {},
+          "unit_size": "",
+          "keywords": "",
+          "faction_keywords": "",
+          "leader": "",
+          "weapons": [],
+          "abilities": []
         }
       }
     },
@@ -47774,7 +47782,7 @@
           "role": "Other",
           "points": 690,
           "stats": {
-            "M": "20\"",
+            "M": "20+\"",
             "T": "12",
             "SV": "2+",
             "W": "22",
@@ -47847,11 +47855,11 @@
           "role": "Other",
           "points": 580,
           "stats": {
-            "M": "20\"",
+            "M": "20+\"",
             "T": "12",
             "SV": "2+",
             "W": "22",
-            "LD": "6",
+            "LD": "6+",
             "OC": "0"
           },
           "unit_size": "",
@@ -50014,7 +50022,7 @@
             "T": "3",
             "SV": "4+",
             "W": "3",
-            "LD": "6",
+            "LD": "6+",
             "OC": "1"
           },
           "unit_size": "",
@@ -66572,7 +66580,7 @@
           "stats": {
             "M": "12\"",
             "T": "4",
-            "SV": "5",
+            "SV": "5+",
             "W": "4",
             "LD": "7+",
             "OC": "1"
