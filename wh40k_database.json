@@ -39328,7 +39328,7 @@
           "unit_size": "",
           "keywords": "Infantry, Character, Grenades, Psyker, Terminator, Grand Master, Imperium",
           "faction_keywords": "Grey Knights",
-          "leader": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad",
+          "leader": "This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**",
           "weapons": [],
           "abilities": [
             {
@@ -39337,7 +39337,7 @@
             },
             {
               "name": "Leader",
-              "text": "This model can be attached to the following units:\n■ Brotherhood Terminator Squad\n■ Paladin Squad"
+              "text": "This model can be attached to the following units:\n- **^^Brotherhood Terminator Squad^^**\n- **^^Paladin Squad^^**"
             }
           ]
         },
