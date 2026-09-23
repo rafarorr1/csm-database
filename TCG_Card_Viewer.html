@@ -1180,7 +1180,7 @@ scene.environmentIntensity = 0.75;
 
 const composer = new EffectComposer(renderer);
 composer.addPass(new RenderPass(scene, camera));
-const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.32, 0.5, 0.9);
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.24, 0.5, 0.92);
 composer.addPass(bloom);
 composer.addPass(new OutputPass());
 
@@ -1349,9 +1349,9 @@ const holoFragment = `
 
     // Brillo especular que barre la carta
     float gpos = (vUv.x + (1. - vUv.y)) * .5;
-    float gc = .5 + tilt.x * 1.7 + tilt.y * 1.3;
+    float gc = .84 + tilt.x * 1.7 + tilt.y * 1.3;
     float glare = exp(-pow((gpos - gc) * 4.5, 2.));
-    col += vec3(1., .97, .9) * glare * (.025 + .1 * m.r * uHolo);
+    col += vec3(1., .97, .9) * glare * (.015 + .05 * m.r * uHolo);
 
     // Destellos
     vec2 g = vUv * vec2(64., 90.);
@@ -1375,7 +1375,7 @@ function buildCardMaterials(tex, def) {
   const front = new THREE.MeshPhysicalMaterial({
     map: tex.map, normalMap: tex.normal, normalScale: new THREE.Vector2(.85, .85),
     roughnessMap: tex.orm, metalnessMap: tex.orm, roughness: 1, metalness: 1,
-    clearcoat: .55, clearcoatRoughness: .14,
+    clearcoat: .4, clearcoatRoughness: .2,
   });
   front.onBeforeCompile = sh => {
     sh.uniforms.uSat = satUniform;
@@ -1773,8 +1773,9 @@ function frame() {
   const bgH = 2 * Math.tan(THREE.MathUtils.degToRad(camera.fov / 2)) * (camera.position.z - bg.position.z) * 1.35;
   bg.scale.set(bgH * camera.aspect, bgH, 1);
 
-  cursorLight.position.set(S.hover.x * 4, S.hover.y * 3.5, 2.8);
-  cursorLight.intensity = 9 + S.pulse * 24;
+  // La luz queda a un costado (arriba a la derecha) para que el reflejo no caiga en el centro de la carta
+  cursorLight.position.set(3.2 + S.hover.x * 2.5, 2.2 + S.hover.y * 2, 2.4);
+  cursorLight.intensity = 5 + S.pulse * 20;
   scene.environmentRotation.y = S.hover.x * .8;
   scene.environmentRotation.x = -S.hover.y * .4;
 
