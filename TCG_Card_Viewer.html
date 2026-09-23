@@ -787,7 +787,7 @@ function paintMaskFullArt(def) {
   const L = LAYOUT, B = L.body, T = FULL.text, c = makeCanvas(TW, TH), ctx = c.getContext('2d');
   ctx.fillStyle = '#000'; ctx.fillRect(0, 0, TW, TH);
   rr(ctx, L.frame.x, L.frame.y, L.frame.w, L.frame.h, L.frame.r); ctx.fillStyle = 'rgb(210,150,0)'; ctx.fill();
-  rr(ctx, B.x, B.y, B.w, B.h, B.r); ctx.fillStyle = 'rgb(190,220,0)'; ctx.fill();
+  rr(ctx, B.x, B.y, B.w, B.h, B.r); ctx.fillStyle = 'rgb(120,210,0)'; ctx.fill();
   // Menos holo donde el degradado oscurece la zona de texto
   const g = ctx.createLinearGradient(0, 760, 0, B.y + B.h);
   g.addColorStop(0, 'rgba(0,0,0,0)'); g.addColorStop(.35, 'rgba(0,0,0,.7)'); g.addColorStop(1, 'rgba(0,0,0,.85)');
@@ -1310,7 +1310,7 @@ edgeGeo.translate(0, 0, -CT / 2);
 const hiddenMat = new THREE.MeshBasicMaterial({ visible: false });
 const edgeMat = new THREE.MeshPhysicalMaterial({ color: 0xb8862b, metalness: .85, roughness: .32, clearcoat: .4 });
 
-const GHOST_SAT = 0.22; // saturación de una carta que aún no tienes
+const GHOST_SAT = 0.7; // saturación de una carta que aún no tienes
 const satUniform = { value: 1 };
 function makeTexture(canvasEl, srgb) {
   const t = new THREE.CanvasTexture(canvasEl);
@@ -1381,7 +1381,8 @@ function buildCardMaterials(tex, def) {
     sh.uniforms.uSat = satUniform;
     sh.fragmentShader = 'uniform float uSat;\n' + sh.fragmentShader.replace('#include <map_fragment>',
       `#include <map_fragment>
-       diffuseColor.rgb = mix(vec3(dot(diffuseColor.rgb, vec3(.299, .587, .114))), diffuseColor.rgb, uSat) * mix(.4, 1., uSat);`);
+       // Un poco más de saturación para compensar el tone mapping; las cartas sin copias se ven algo apagadas
+       diffuseColor.rgb = max(mix(vec3(dot(diffuseColor.rgb, vec3(.299, .587, .114))), diffuseColor.rgb, uSat * 1.2), 0.) * mix(.72, 1., (uSat - .7) / .3);`);
   };
   const holo = new THREE.ShaderMaterial({
     uniforms: {
